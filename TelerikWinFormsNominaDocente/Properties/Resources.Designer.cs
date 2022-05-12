@@ -63,9 +63,229 @@ namespace TelerikWinFormsNominaDocente.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1216559_arrows_refresh_reload_repeat_rotate_icon {
+            get {
+                object obj = ResourceManager.GetObject("1216559_arrows_refresh_reload_repeat_rotate_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1216577_human_account_business_person_profile_icon_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("1216577_human_account_business_person_profile_icon_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1216581_humans_account_friends_person_profile_icon32X32 {
+            get {
+                object obj = ResourceManager.GetObject("1216581_humans_account_friends_person_profile_icon32X32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1216585_dollar_banking_business_cash_ecommerce_icon {
+            get {
+                object obj = ResourceManager.GetObject("1216585_dollar_banking_business_cash_ecommerce_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1216585_dollar_banking_business_cash_ecommerce_icon_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("1216585_dollar_banking_business_cash_ecommerce_icon_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1216585_dollar_banking_business_cash_ecommerce_icon_64x64 {
+            get {
+                object obj = ResourceManager.GetObject("1216585_dollar_banking_business_cash_ecommerce_icon_64x64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1216590_calendar_business_chart_event_month_icon {
+            get {
+                object obj = ResourceManager.GetObject("1216590_calendar_business_chart_event_month_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1216590_calendar_business_chart_event_month_icon32X32 {
+            get {
+                object obj = ResourceManager.GetObject("1216590_calendar_business_chart_event_month_icon32X32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1570021_add_icon {
+            get {
+                object obj = ResourceManager.GetObject("1570021_add_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1570021_update_icon32x32 {
+            get {
+                object obj = ResourceManager.GetObject("1570021_update_icon32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1570068_close_icon {
+            get {
+                object obj = ResourceManager.GetObject("1570068_close_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1785203_diagram_economy_graph_money_presentation_icon32x32 {
+            get {
+                object obj = ResourceManager.GetObject("1785203_diagram_economy_graph_money_presentation_icon32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3069185_book_education_learn_school_icon {
+            get {
+                object obj = ResourceManager.GetObject("3069185_book_education_learn_school_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3069185_book_education_learn_school_icon32x32 {
+            get {
+                object obj = ResourceManager.GetObject("3069185_book_education_learn_school_icon32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3069185_book_education_learn_school_icon32x321 {
+            get {
+                object obj = ResourceManager.GetObject("3069185_book_education_learn_school_icon32x321", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap accept_ok_database_16695 {
+            get {
+                object obj = ResourceManager.GetObject("accept_ok_database_16695", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap basic_archive_full {
+            get {
+                object obj = ResourceManager.GetObject("basic_archive_full", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap basic_floppydisk {
+            get {
+                object obj = ResourceManager.GetObject("basic_floppydisk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Books_png_48x48 {
             get {
                 object obj = ResourceManager.GetObject("Books(png)48x48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cheque {
+            get {
+                object obj = ResourceManager.GetObject("cheque", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap delete {
+            get {
+                object obj = ResourceManager.GetObject("delete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap explorer_folders_18871 {
+            get {
+                object obj = ResourceManager.GetObject("explorer_folders_18871", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap folder_settings_tools_22597 {
+            get {
+                object obj = ResourceManager.GetObject("folder_settings_tools_22597", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -77,6 +297,26 @@ namespace TelerikWinFormsNominaDocente.Properties {
             get {
                 object obj = ResourceManager.GetObject("LOGO-INEI-BLANCO-MEDIUM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Modificar_png_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("Modificar(png)32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] moon {
+            get {
+                object obj = ResourceManager.GetObject("moon", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using Telerik.WinControls;
-using Telerik.WinControls.UI;
 using TelerikWinFormsNominaDocente.Class;
 
 namespace TelerikWinFormsNominaDocente
@@ -15,6 +7,7 @@ namespace TelerikWinFormsNominaDocente
     public partial class FrmLogin : Telerik.WinControls.UI.RadForm
     {
         public static FrmLogin Form;
+
         public FrmLogin()
         {
             Form = this;
@@ -34,7 +27,7 @@ namespace TelerikWinFormsNominaDocente
             {
                 _clsQueries.LoginQuery(txtUser.Text, txtPassword.Text);
             }
-            
+
             else if (e.KeyCode == Keys.Escape)
             {
                 Application.Exit();

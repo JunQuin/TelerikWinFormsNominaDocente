@@ -24,6 +24,7 @@ namespace TelerikWinFormsNominaDocente.Class
         
         public SqlConnection Con;
 
+
         public void ConnectionOpen()
         {
             Con = new SqlConnection(Conn());

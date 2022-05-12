@@ -40,6 +40,12 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,17 +55,42 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Telerik.WinControls, Version=2022.1.222.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
-      <HintPath>..\lib\RCWF\2022.1.222.40.Trial\Telerik.WinControls.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2022\Bin40\Telerik.WinControls.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2022.1.222.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2022\Bin40\Telerik.WinControls.GridView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.PdfViewer, Version=2022.1.222.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2022\Bin40\Telerik.WinControls.PdfViewer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock, Version=2022.1.222.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.Themes.CrystalDark, Version=2022.1.222.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Fluent, Version=2022.1.222.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2022\Bin40\Telerik.WinControls.Themes.Fluent.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Telerik.WinControls.Themes.FluentDark, Version=2022.1.222.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.UI, Version=2022.1.222.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
-      <HintPath>..\lib\RCWF\2022.1.222.40.Trial\Telerik.WinControls.UI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2022\Bin40\Telerik.WinControls.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2022.1.217.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2022\Bin40\Telerik.Windows.Documents.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Fixed, Version=2022.1.217.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2022\Bin40\Telerik.Windows.Documents.Fixed.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip, Version=2022.1.217.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2022\Bin40\Telerik.Windows.Zip.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="TelerikCommon, Version=2022.1.222.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
-      <HintPath>..\lib\RCWF\2022.1.222.40.Trial\TelerikCommon.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2022\Bin40\TelerikCommon.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
@@ -67,11 +98,29 @@
     <Compile Include="Class\ClsConnection.cs" />
     <Compile Include="Class\ClsFormControll.cs" />
     <Compile Include="Class\ClsQueries.cs" />
+    <Compile Include="Forms\FrmRegistroGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmRegistroGrupo.Designer.cs">
+      <DependentUpon>FrmRegistroGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmRegistroMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmRegistroMateria.Designer.cs">
+      <DependentUpon>FrmRegistroMateria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrmCapturaPrimeroSecundaria.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FrmCapturaPrimeroSecundaria.Designer.cs">
       <DependentUpon>FrmCapturaPrimeroSecundaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCapturaSegundoSecundaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCapturaSegundoSecundaria.Designer.cs">
+      <DependentUpon>FrmCapturaSegundoSecundaria.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FrmLandingPage.cs">
       <SubType>Form</SubType>
@@ -85,16 +134,48 @@
     <Compile Include="Forms\FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\FrmRegistroGrupo.resx">
+      <DependentUpon>FrmRegistroGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRegistroMateria.resx">
+      <DependentUpon>FrmRegistroMateria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmCapturaPrimeroSecundaria.resx">
       <DependentUpon>FrmCapturaPrimeroSecundaria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCapturaSegundoSecundaria.resx">
+      <DependentUpon>FrmCapturaSegundoSecundaria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrmLandingPage.resx">
       <DependentUpon>FrmLandingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRegistroDocente.resx">
+      <DependentUpon>FrmRegistroDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRegistroNomina.resx">
+      <DependentUpon>FrmRegistroNomina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Forms\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <Compile Include="Forms\FrmRegistroDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmRegistroDocente.Designer.cs">
+      <DependentUpon>FrmRegistroDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmRegistroNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmRegistroNomina.Designer.cs">
+      <DependentUpon>FrmRegistroNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ineiNominaDocentesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ineiNominaDocentesDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -108,6 +189,18 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest" />
+    <None Include="ineiNominaDocentesDataSet.xsc">
+      <DependentUpon>ineiNominaDocentesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ineiNominaDocentesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ineiNominaDocentesDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ineiNominaDocentesDataSet.xss">
+      <DependentUpon>ineiNominaDocentesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -127,6 +220,78 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Books%28png%2948x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modificar%28png%2932x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_settings_tools_22597.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\svg\moon.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basic_archive_full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explorer_folders_18871.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basic_floppydisk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept_ok_database_16695.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheque.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1216585_dollar_banking_business_cash_ecommerce_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1216585_dollar_banking_business_cash_ecommerce_icon_64x64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1216585_dollar_banking_business_cash_ecommerce_icon_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1216577_human_account_business_person_profile_icon_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3069185_book_education_learn_school_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3069185_book_education_learn_school_icon32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3069185_book_education_learn_school_icon32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1216590_calendar_business_chart_event_month_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1216590_calendar_business_chart_event_month_icon32X32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1216581_humans_account_friends_person_profile_icon32X32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1216559_arrows_refresh_reload_repeat_rotate_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1570068_close_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1570021_add_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1570021_update_icon32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1785203_diagram_economy_graph_money_presentation_icon32x32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

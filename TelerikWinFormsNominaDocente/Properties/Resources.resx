@@ -118,10 +118,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="3069185_book_education_learn_school_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3069185_book_education_learn_school_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1570021_update_icon32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1570021_update_icon32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3069185_book_education_learn_school_icon32x321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3069185_book_education_learn_school_icon32x321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basic_floppydisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basic_floppydisk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LOGO-INEI-BLANCO-MEDIUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGO-INEI-BLANCO-MEDIUM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1216585_dollar_banking_business_cash_ecommerce_icon_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1216585_dollar_banking_business_cash_ecommerce_icon_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1570068_close_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1570068_close_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1216577_human_account_business_person_profile_icon_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1216577_human_account_business_person_profile_icon_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1216559_arrows_refresh_reload_repeat_rotate_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1216559_arrows_refresh_reload_repeat_rotate_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accept_ok_database_16695" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accept_ok_database_16695.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_settings_tools_22597" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_settings_tools_22597.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1216581_humans_account_friends_person_profile_icon32X32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1216581_humans_account_friends_person_profile_icon32X32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basic_archive_full" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basic_archive_full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1570021_add_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1570021_add_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explorer_folders_18871" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\explorer_folders_18871.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Modificar(png)32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Modificar(png)32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1216590_calendar_business_chart_event_month_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1216590_calendar_business_chart_event_month_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\svg\moon.svg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Books(png)48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Books(png)48x48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1216585_dollar_banking_business_cash_ecommerce_icon_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1216585_dollar_banking_business_cash_ecommerce_icon_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cheque" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cheque.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1216585_dollar_banking_business_cash_ecommerce_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1216585_dollar_banking_business_cash_ecommerce_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3069185_book_education_learn_school_icon32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3069185_book_education_learn_school_icon32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1216590_calendar_business_chart_event_month_icon32X32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1216590_calendar_business_chart_event_month_icon32X32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1785203_diagram_economy_graph_money_presentation_icon32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1785203_diagram_economy_graph_money_presentation_icon32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

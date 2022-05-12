@@ -27,5 +27,35 @@ namespace TelerikWinFormsNominaDocente.Forms
         {
             _clsFormControll.OpenCapturaPrimeroSecundariaForm();
         }
+
+        private void radMenuItem3_Click(object sender, EventArgs e)
+        {
+            _clsFormControll.OpenCapturaSegundoSecundariaForm();
+        }
+
+        private void radMenuItem10_Click(object sender, EventArgs e)
+        {
+            _clsFormControll.OpenRegistroDocenteForm();
+        }
+
+        private void radMenuItem9_Click(object sender, EventArgs e)
+        {
+            _clsFormControll.OpenRegistroNomina();
+        }
+
+        private void radMenuItem11_Click(object sender, EventArgs e)
+        {
+            _clsFormControll.OpenRegistroMateriaForm();
+        }
+
+        private void radMenuItem12_Click(object sender, EventArgs e)
+        {
+            _clsFormControll.OpenRegistroGrupoForm();
+        }
+
+        private void radMenuItem13_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
